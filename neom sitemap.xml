@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.neomeducationhyd.com/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/admissions/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/programs/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/facilities/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/gallery/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/about/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/blog/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/contact/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/blog/admissions-open-2026/</loc>
+  <lastmod>2026-06-11T15:16:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/blog/why-cambridge-pathway-school-is-best-in-santosh-nagar/</loc>
+  <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.neomeducationhyd.com/blog/why-parents-choose-schools-for-academics-safety-all-round-development/</loc>
+  <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>

@@ -1,0 +1,88 @@
+/* app/globals.css */
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-primary-blue: #2F3E9E;
+  --color-sky-blue: #63B3E6;
+  --color-leaf-green: #5FAE3E;
+  --color-light-green: #8ED24D;
+  --color-soft-orange: #E38B4F;
+  --color-background-white: #F8FAFC;
+
+  /* Typography */
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Nunito Sans", sans-serif;
+
+  /* Custom animations */
+  --animate-fade-in-up: fadeInUp 0.6s ease-out forwards;
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background-white);
+  color: #1e293b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom container */
+.container-custom {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Floating WhatsApp button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
