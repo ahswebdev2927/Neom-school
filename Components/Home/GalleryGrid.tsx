@@ -145,22 +145,22 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const images = [
-  { src: "/neom-imgs/15.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/12.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/11.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/14.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/13.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/16.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/Kidsinclassroom.jpg", alt: "Kids in classroom" },
-  { src: "/neom-imgs/Childrenreading.jpg", alt: "Children reading" },
-  { src: "/neom-imgs/IMG-20260206-WA0017.jpg", alt: "Art class" },
-  { src: "/neom-imgs/IMG-20250529-WA0014.jpg", alt: "Playground" },
-  { src: "/neom-imgs/IMG-20260206-WA0002.jpg", alt: "School library" },
-  { src: "/neom-imgs/IMG-20260206-WA0044.jpg", alt: "Students with teacher" },
-  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Students with teacher 2" },
-  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Students with teacher 3" },
-  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Students with teacher 4" },
-  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Students with teacher 5" },
+  { src: "/neom-imgs/15.jpg", alt: "NEOM School Santosh Nagar Campus Classroom" },
+  { src: "/neom-imgs/12.jpg", alt: "Robotics Lab at NEOM School" },
+  { src: "/neom-imgs/11.jpg", alt: "Interactive STEM Learning at NEOM School" },
+  { src: "/neom-imgs/14.jpg", alt: "Smart Classrooms at NEOM School" },
+  { src: "/neom-imgs/13.jpg", alt: "Future-Ready Learning Activities at NEOM School" },
+  { src: "/neom-imgs/16.jpg", alt: "Early Childhood Education at NEOM School" },
+  { src: "/neom-imgs/Kidsinclassroom.jpg", alt: "Students in Classroom at NEOM School" },
+  { src: "/neom-imgs/Childrenreading.jpg", alt: "Children Reading in NEOM School Library" },
+  { src: "/neom-imgs/IMG-20260206-WA0017.jpg", alt: "Art and Creative Class at NEOM School" },
+  { src: "/neom-imgs/IMG-20250529-WA0014.jpg", alt: "Playground and Outdoor Activities at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0002.jpg", alt: "School Library and Learning Resources at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0044.jpg", alt: "Students with Caring Teachers at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Group Learning and Collaboration at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Activity-Based Learning at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Holistic Development at NEOM School" },
+  { src: "/neom-imgs/IMG-20260206-WA0012.jpg", alt: "Cambridge Pathway Education at NEOM School" },
 ];
 
 export default function GalleryGrid() {

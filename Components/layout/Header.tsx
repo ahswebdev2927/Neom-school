@@ -343,7 +343,7 @@ export default function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo/logo.png"
-              alt="Nemo Logo"
+              alt="NEOM School Santosh Nagar Logo"
               width={60}
               height={0}
               className="object-contain"

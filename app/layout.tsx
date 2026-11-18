@@ -20,8 +20,23 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NEOM SCHOOL - Safe Place for Children to Learn and Grow",
-  description: "Dare to Dream, Learn to Excel",
+  metadataBase: new URL("https://www.neomeducationhyd.com"),
+  title: {
+    default: "Best School in Santosh Nagar | NEOM School – Future-Ready Cambridge Learning",
+    template: "%s | NEOM School",
+  },
+  description:
+    "Searching for the best school in Santosh Nagar? NEOM School offers Cambridge-standard education from Playgroup to Grade 7 with caring teachers, safe campus, and individual attention. Admissions open!",
+  keywords: [
+    "Best school in Santosh Nagar",
+    "Best Cambridge International school near me",
+    "Schools with strong academics",
+    "Future-ready schools",
+    "Schools with caring teachers",
+    "Individual attention school",
+    "Safe learning environment",
+    "NEOM School Hyderabad",
+  ],
   verification: {
     google: "lC0YcOepCwnhfLh3sbr78WEDg03y_Z26H5Ul1scY7K4",
   },

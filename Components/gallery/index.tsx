@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import ReelsSection from "./ReelsSection";
 
 // Sample gallery images – replace with your own or fetch from an API
 // const galleryImages = [
@@ -180,6 +181,9 @@ export default function GalleryPage() {
           )}
         </div>
       </section>
+
+      {/* Our Memories Video Reels Section */}
+      <ReelsSection />
 
       {/* Lightbox Modal */}
       {lightboxOpen && (

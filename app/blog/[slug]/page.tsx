@@ -14,12 +14,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = getBlogPostBySlug(resolvedParams.slug);
   
   if (!post) {
-    return { title: 'Post Not Found | NEOM SCHOOL' };
+    return { title: 'Post Not Found | NEOM School' };
   }
   
   return {
-    title: `${post.title} | NEOM SCHOOL`,
+    title: `${post.title} | NEOM School`,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://www.neomeducationhyd.com/blog/${resolvedParams.slug}/`,
+    },
+    openGraph: {
+      title: `${post.title} | NEOM School`,
+      description: post.excerpt,
+      url: `https://www.neomeducationhyd.com/blog/${resolvedParams.slug}/`,
+      images: [
+        {
+          url: post.image,
+          alt: post.title,
+        },
+      ],
+      type: 'article',
+    },
   };
 }
 

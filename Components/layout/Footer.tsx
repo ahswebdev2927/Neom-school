@@ -181,7 +181,7 @@ export default function Footer() {
               <div className="relative h-16 w-16">
                 <Image
                   src="/logo/logo.png"  // Fixed path – ensure file exists at public/logo/logo.png
-                  alt="NEOM School Logo"
+                  alt="NEOM School Logo - Santosh Nagar, Hyderabad"
                   fill
                   className="object-contain h-auto"
                   priority

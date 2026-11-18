@@ -29,7 +29,7 @@ export default function WelcomeSection() {
               <Image
                 // src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 src="/neom-imgs/welcome.jpg"
-                alt="Children learning together"
+                alt="NEOM School Santosh Nagar Campus Students Learning"
                 fill
                 className="object-cover"
               />

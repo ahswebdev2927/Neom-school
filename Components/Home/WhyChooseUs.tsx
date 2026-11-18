@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-blue mb-4">
-            Why Choose NEOM School?
+            Why Choose NEOM School for All-Round Development?
           </h2>
           <div className="w-24 h-1 bg-leaf-green mx-auto"></div>
         </div>

@@ -3,8 +3,11 @@ import Image from 'next/image';
 import { blogPosts } from '@/app/lib/blogData';
 
 export const metadata = {
-  title: 'Blog | NEOM SCHOOL',
-  description: 'Read the latest updates and educational insights from NEOM School.',
+  title: 'Educational Blog & School Insights | NEOM School Santosh Nagar',
+  description: 'Read the latest updates, parenting tips, Cambridge curriculum benefits, and educational insights from NEOM School Hyderabad.',
+  alternates: {
+    canonical: 'https://www.neomeducationhyd.com/blog/',
+  },
 };
 
 export default function BlogPage() {

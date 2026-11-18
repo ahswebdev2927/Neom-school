@@ -37,7 +37,7 @@ export default function Programs() {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary-blue mb-4">
-            Our Programs
+            Our Academic Offerings — Playgroup to Grade 7
           </h2>
           <div className="w-24 h-1 bg-leaf-green mx-auto"></div>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
